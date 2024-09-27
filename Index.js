@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+// hi
 const produits = [
   { id: 1, nom: 'Laptop', prix: 1200 },
   { id: 2, nom: 'Smartphone', prix: 800 },
